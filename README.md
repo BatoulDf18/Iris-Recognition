@@ -1,7 +1,16 @@
 # Iris Recognition System
 
 ## Description
-This project implements a biometric identification system using iris recognition. It uses advanced image processing techniques and the SIFT (Scale Invariant Feature Transform) algorithm to extract unique features from iris images for accurate individual identification.
+This project focuses on the precise identification of individuals using their irises. By leveraging the unique characteristics of the iris, we develop a biometric system capable of reliably and efficiently authenticating individuals. The project consists of two main phases: enrollment and recognition.
+
+## Technologies Used
+
+- **Programming Language**: Python
+- **Python Libraries**:
+  - **OpenCV**: For image processing and feature extraction.
+  - **Pandas**: For data manipulation.
+  - **NumPy**: For mathematical operations.
+  - **Tkinter**: For developing the graphical interface.
 
 ## Features
 - Iris image acquisition from the UPOL Iris Database
@@ -69,4 +78,6 @@ Development Language: Python
 
 
 ## Future Improvements
-- Optimization of image processing algorithme
+-Optimization of image processing algorithm parameters.
+-Integration of machine learning techniques for more accurate identification.
+-Extension of the system to support additional identification modalities.
